@@ -18,13 +18,6 @@ deactivate B
 @enduml
 ```
 
-```mermaid
-sequenceDiagram
-    A ->> B : instantinate
-    activate B
-    B -->> A : dispose
-    deactivate B
-```
 
 ```mermaid
 sequenceDiagram
