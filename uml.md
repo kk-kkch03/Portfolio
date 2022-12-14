@@ -1,8 +1,10 @@
 # UML図
 ## 書き方
 https://mermaid-js.github.io/mermaid/#/./classDiagram
+
 https://cacoo.com/ja/blog/how-to-write-class-diagram/
 
+## 例
 
 ```mermaid
  classDiagram
