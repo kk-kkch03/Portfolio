@@ -1,10 +1,20 @@
-@startuml{OnlyBox.png}
-title 単純なクラス図
+classDiagram
+  class Human {
+    +str name
+    #int Age
+  }
 
-class "クラス名" as OnlyClassBox
-note bottom of OnlyClassBox
-     クラス名だけを記載する場合は、単純な四角形で良い。\n
-     PlantUMLの記法では属性欄と操作欄が必ず表示されてしまう。
-end note
+  class Id { -int value }
+  class Age { -int value }
+  class Owner
+  class Employee {
+    +int Id
 
-@enduml
+    +int get_age()
+  }
+
+  Human <|-- Owner : extends
+  Human <|-- Employee : extends
+  Human o-- Id
+  Human o-- Age
+  Owner --> Employee : use
