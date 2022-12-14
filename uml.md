@@ -1,5 +1,9 @@
 ```mermaid
  classDiagram
-    class Animal
-    Vehicle <|-- Car
+    class Vehicle
 ```
+
+```mermaid
+ classDiagram
+ Vehicle <|-- Car
+ ```
