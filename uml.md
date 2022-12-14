@@ -7,11 +7,6 @@
  classDiagram
  Animal <|-- Duck
  ```
-
-```mermaid
- classDiagram
- Animal <|-- Duck
- ```
  
  ```mermaid
  classDiagram
