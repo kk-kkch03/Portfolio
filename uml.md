@@ -35,10 +35,7 @@ sequenceDiagram
 
 ```puml
 @startuml
-/' 
-    このコメントは描画されません
-'/
-' この行コメントは描画されません
+
 A -> B
 note right: 注釈
 @enduml
