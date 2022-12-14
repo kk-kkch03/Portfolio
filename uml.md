@@ -6,7 +6,7 @@ A -> B
 
 ```mermaid
 sequenceDiagram
-    A ->> B : message
+    A ->> B : install
 ```
 
 ```puml
@@ -17,7 +17,6 @@ A <-- B : dispose
 deactivate B
 @enduml
 ```
-
 
 ```mermaid
 sequenceDiagram
