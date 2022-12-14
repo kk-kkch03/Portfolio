@@ -1,5 +1,4 @@
 ```mermaid
- class ClassA {}
-
-class ClassB extends ClassA {}
+  class Animal
+  Vehicle <|-- Car
 ```
